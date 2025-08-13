@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset and artifacts
+artifacts/
+data/
+
+# Logs and outputs
+logs/
+*.log
+
+# Models
+models/
+*.zip
+
+# Eval outputs
+eval_results.csv
+
+# Plots (optional, keep only final ones)
+plots/*.png
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
